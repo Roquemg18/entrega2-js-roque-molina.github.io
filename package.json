@@ -1,0 +1,27 @@
+{
+  "name": "cotillon-de-nancy-roque-molina",
+  "version": "1.0.0",
+  "description": "estoy es un proyecto para un cotillon",
+  "main": "index.html",
+  "scripts": {
+    "build-css":"node-sass --include-path scss styles/styles-scss.scss styles/styles-scss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roquemg18/el-cotillon-de-nancy-3.0.git"
+  },
+  "keywords": [
+    "cotillon"
+  ],
+  "author": "ASC/PUC roque molina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Roquemg18/el-cotillon-de-nancy-3.0/issues"
+  },
+  "homepage": "https://github.com/Roquemg18/el-cotillon-de-nancy-3.0#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
